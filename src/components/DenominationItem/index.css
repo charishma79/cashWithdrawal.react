@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.cash-list-container {
+  list-style-type: none;
+  margin-left: 15px;
+}
+.btn {
+  border-radius: 5px;
+  height: 40px;
+  width: 180px;
+  background-color: #585076;
+  color: #c7d2fe;
+  font-family: Roboto;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #c4c4c4;
+}

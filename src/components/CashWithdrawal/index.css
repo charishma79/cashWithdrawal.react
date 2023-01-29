@@ -1,0 +1,108 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 130px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.cash-container {
+  background-color: #150b3e;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+  padding: 15px;
+}
+
+.name-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.button {
+  border-radius: 60px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  padding-right: 49px;
+  padding-left: 49px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-family: Roboto;
+  font-size: 25px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.name {
+  color: #c7d2fe;
+  font-family: Roboto;
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  color: #382f5a;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.rupees-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.rupees {
+  color: #d4d2db;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.cash {
+  color: #382f5a;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.withdraw-heading {
+  color: #c7d2fe;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sum {
+  color: #382f5a;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.rupees-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
